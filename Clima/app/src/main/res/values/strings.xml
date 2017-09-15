@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Clima</string>
-    <string name="action_settings">Settings</string>
-    <string name="welcome_string">Bienvenido a la app para conocer el clima. Para conocer la temperatura de un lugar selecciona una ciudad de abajo</string>
-</resources>
