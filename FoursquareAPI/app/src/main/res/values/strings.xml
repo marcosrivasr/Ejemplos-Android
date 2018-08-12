@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FoursquareAPI</string>
+    <string name="foursquare_button">Iniciar sesión con cuenta de Fousquare</string>
+    <string name="internet_error">No tienes conexión a internet para continuar</string>
+    <string name="access_error">Hay seleccionado no dar permisos para obtener ubicación</string>
+    <string name="loading_message">Cargando información...</string>
+    <string name="dummy_text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos eveniet exercitationem explicabo in iure minima natus, necessitatibus nihil placeat porro quis quisquam quos repellendus sequi tempore vero! Odit, voluptate.
+    </string>
+</resources>

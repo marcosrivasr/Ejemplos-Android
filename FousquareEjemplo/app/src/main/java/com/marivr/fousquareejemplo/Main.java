@@ -33,7 +33,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO: 3.- Linkeamos botón con
+        // TODO: 3.- Linkeamos botón
         bLogin = (Button)findViewById(R.id.bLogin);
 
         manageLoginUI();
@@ -46,7 +46,7 @@ public class Main extends AppCompatActivity {
                 // TODO: 4.- Inicio de un nuevo flujo a través de un intent
                 Intent intent = FoursquareOAuth.getConnectIntent(Main.this, CLIENT_ID);
 
-                // TODO: 5.-
+                // TODO: 5.- Se valida que exista app
                 // Si el dispositivo no tiene instalada la app de Fousquare se le va a pedir que
                 // la instale, usando un intent hacia la Play Store
                 if(FoursquareOAuth.isPlayStoreIntent(intent)){
@@ -60,6 +60,7 @@ public class Main extends AppCompatActivity {
         });
     }
 
+    // TODO: 6.- Se valida el tipo de conexión que se hace
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
@@ -75,7 +76,7 @@ public class Main extends AppCompatActivity {
     }
 
     private void onCompleteConnect(int resultCode, Intent data) {
-        // TODO: 3.- Se valida que no haya excepción de conexión
+        // TODO: 7.- Se valida que no haya excepción de conexión
         AuthCodeResponse codeResponse = FoursquareOAuth.getAuthCodeFromResult(resultCode, data);
         Exception exception = codeResponse.getException();
 

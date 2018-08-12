@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flickr</string>
+    <string name="titulo_img">Título</string>
+    <string name="autor_img">Autor</string>
+    <string name="descripcion_img">Descripcion</string>
+    <string name="nombre_img">Nombre real</string>
+</resources>

@@ -1,7 +1,5 @@
 package com.marivr.basededatos.Datos;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
 
 import java.util.UUID;
 

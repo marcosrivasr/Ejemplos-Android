@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemFav"
+        android:title="Hola"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_favorite_black_48dp"/>
+
+
+    <item
+        android:title="Buscar"
+        android:id="@+id/itemBuscar"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_black_48dp"/>
+
+    <item android:id="@+id/itemCompartir"
+        android:title="Compartir"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+</menu>
